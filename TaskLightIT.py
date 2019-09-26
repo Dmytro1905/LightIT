@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 from random import randint
 # создаем класс Players с атрибутами имя (name) и здоровье (health) 
 class Players():
@@ -78,4 +79,4 @@ while (player.health > 0 and computer.health > 0): # создаем цикл р�
         print("Победил Противник!")
     elif (computer.health < 0):
         print("Победил Игрок!")
-    print()
+    print
